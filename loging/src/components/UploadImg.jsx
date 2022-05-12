@@ -1,29 +1,24 @@
-import React, { useState } from "react";
+import React from "react";
 
-function up_image(setuploaded, setUpl_Img, img, setimgurl){
-	setuploaded(true)
-    setimgurl(img.url)
+function up_image(setuploaded, setUpl_Img, immg, setimgurl){
+    setimgurl(immg)
+    setuploaded(true)
     setUpl_Img(false)
 }
 
-
-
-
 const UploadImg= ({setuploaded, setUpl_Img, setimgurl}) => {
-    const [img, setimg] = useState(null) 
+    const [immg, setimg] = React.useState(null) 
     const handleChange = async (e) => {
-        setimg({
-          ...img,
-          [e.target.name]: e.target.value,
-        });
+        await setimg(e.target.value);
     };
     return (
   <div className="upl_img">
-    <h1 className="h1_up">Upload a profile photo</h1>
-    <input type="text" name="url" className="form-control"  placeholder="Enter photo Url" onChange={handleChange} ></input>
+    <h4 class="sm fs-5 fw-bold h1_up">Upload a profile photo</h4>
+       		<input id="image-url" name="image-url" type="url" class="form-control input-image mt-2" placeholder="Enter photo Url" onChange={handleChange}></input>
+
     <br/>
-    <button type="submit" className="btn btn-dark size_btn ot_size" onClick={() => up_image(setuploaded, setUpl_Img, img, setimgurl)} >Submit</button>
-  </div>
+        <button id="submit-img" type="submit" class="btn btn-dark mt-2 px-5 btn_size" onClick={() => up_image(setuploaded, setUpl_Img, immg, setimgurl)}>Submit</button>
+      </div>
 );
 };
 

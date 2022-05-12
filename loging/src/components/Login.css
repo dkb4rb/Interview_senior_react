@@ -1,64 +1,66 @@
 /*You could erase these lines*/
 * {
-    margin: 0;
-    padding: 0;
+        margin: 0;
+        padding: 0;
 }
 
 
-.container_registro{
-        
-        text-align:center;
-        margin-top:15%;
+.container_registro {
+
+        text-align: center;
+        margin-top: 15%;
 
 }
 
-h1{
+h1 {
         color: white;
-  display: space-around;
+        display: space-around;
 }
 
 .h1_up {
-    color: black;
-    font-weight: bold;
-    margin-top: 103px;
-    font-size: 15px;
+        color: black;
+        font-weight: bold;
+        margin-top: 103px;
+        font-size: 15px;
 }
+
 .Head {
-        background:black;
+        background: black;
         display: flex;
         content: flex;
 }
 
 .tittle {
-        font-size:20px;
-        font-weight:bold;
-        color:black;
-        
+        font-size: 20px;
+        font-weight: bold;
+        color: black;
+
 }
 
-.maill{
-        margin-left:90px;
+.maill {
+        margin-left: 70px;
 }
 
 p {
-        max-width:30%;
-        margin-left:75px;
-        margin-top:10px;
-        margin-bottom:5px;
+        max-width: 30%;
+        margin-left: 55px;
+        margin-top: 10px;
+        margin-bottom: 5px;
 }
 
-.size_btn{
-        font-size:12px;
-        margin:20px;
-  margin-bottom:50px;
+.size_btn {
+        font-size: 12px;
+        margin: 20px;
+        margin-top: -15px;
+        margin-bottom: 50px;
 }
 
 /* Add a black background color to the top navigation */
 ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display:flex
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex
 }
 
 
@@ -69,10 +71,10 @@ a {
 }
 
 .a_head {
-  color: white;
+        color: white;
         text-decoration: none;
-  margin-left:0px;
-  margin-right:100px;
+        margin-left: 0px;
+        margin-right: 100px;
 }
 
 
@@ -80,106 +82,127 @@ a {
 .logo {
         margin: 0;
         font-size: 1.25em;
-  font-weight:bold;
+        font-weight: bold;
 }
 
 .main-nav {
         margin-top: 5px;
+        margin-left: 28px;
 
 }
+
 .logo a,
 .main-nav a {
         padding: 10px 15px;
         text-align: center;
         display: block;
-   
+
 }
 
 .main-nav a {
         color: white;
         font-size: .99em;
 }
+
 .main-nav a:hover {
         color: gray;
+}
+
+.my-input {
+        margin: auto;
+}
+
+.input-image {
+        margin-bottom: -27px !important;
+
+}
+
+.btn_size {
+        margin-bottom: 105px;
+        position: relative;
+        margin-left: -70px;
 }
 
 .ot_size {
         margin-bottom: 100px;
 }
 
-.upl_img{
+.upl_img {
 
-        margin:auto;
-        text-align:center;
+        margin: auto;
+        text-align: center;
 
 }
 
 .header {
-  display:flex;
+        display: flex;
         padding-top: .5em;
 
-        -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-        -moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-        box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
-        height:50px;
+        height: 50px;
 }
 
-.form-control{
-	width:60%;
-  height:5%;
+.form-control {
+        margin: auto;
+        width: 55%;
+
 }
 
-.img-card{
-    background: #f5e9e9;
-    box-shadow: 0px 0px 2px 0.5px;
-    width: 200px;
-    height: auto;
-    margin: auto;
-    font-size: 12px;
-    margin-top: 30px;
+.img-card {
+        background: #f5e9e9;
+        box-shadow: 0px 0px 2px 0.5px;
+        width: 200px;
+        height: auto;
+        margin: auto;
+        font-size: 12px;
+        margin-top: 30px;
 }
 
 img {
-	width: 200px;
-  height:auto;
-    margin:auto;
-  align-content:center;
+        width: 200px;
+        height: auto;
+        margin: auto;
+        align-content: center;
 }
 
 .prg {
-    font-size: 12px;
+        font-size: 12px;
 
-    max-width: 52%;
-    margin-left: 53px;
-    margin-top: 15px;
+        max-width: 52%;
+        margin-left: 53px;
+        margin-top: 15px;
 }
 
 
 /* ================================= 
-  Media Queries
-==================================== */
+      Media Queries
+    ==================================== */
 
 @media (min-width: 769px) {
+
         .header,
         .main-nav {
                 display: flex;
         }
+
         .header {
                 flex-direction: column;
                 align-items: center;
-        .header{
+        }
+
+        .header {
                 width: 80%;
                 margin: 0 auto;
                 max-width: 1150px;
         }
-        }
+
 
 }
-
-
 
 @media (min-width: 1025px) {
         .header {
@@ -189,8 +212,8 @@ img {
 
 }
 
-.foot{
-        background:black;
+.foot {
+        background: black;
         display: fixed;
-        height:150px;
+        height: 150px;
 }
