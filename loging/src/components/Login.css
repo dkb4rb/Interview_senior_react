@@ -1,183 +1,188 @@
 /*You could erase these lines*/
 * {
-        margin: 0;
-        padding: 0;
+	margin: 0;
+	padding: 0;
 }
-
 
 .container_registro {
 
-        text-align: center;
-        margin-top: 15%;
+	text-align: center;
+	margin-top: 15%;
 
 }
 
 h1 {
-        color: white;
-        display: space-around;
+	color: white;
+	display: space-around;
 }
 
 .h1_up {
-        color: black;
-        font-weight: bold;
-        margin-top: 103px;
-        font-size: 15px;
+	color: black;
+	font-weight: bold;
+	margin-top: 103px;
+	font-size: 15px;
 }
 
 .Head {
-        background: black;
-        display: flex;
-        content: flex;
+	background: black;
+	display: flex;
+	content: flex;
 }
 
 .tittle {
-        font-size: 20px;
-        font-weight: bold;
-        color: black;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
 
 }
 
 .maill {
-        margin-left: 70px;
+	margin-left: 70px;
 }
 
 p {
-        max-width: 30%;
-        margin-left: 55px;
-        margin-top: 10px;
-        margin-bottom: 5px;
+	max-width: 30%;
+	margin-left: 55px;
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 
 .size_btn {
-        font-size: 12px;
-        margin: 20px;
-        margin-top: -15px;
-        margin-bottom: 50px;
+	font-size: 12px;
+	margin: 20px;
+	margin-top: -15px;
+	margin-bottom: 50px;
 }
 
 /* Add a black background color to the top navigation */
 ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        display: flex
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex
 }
 
 
 h2,
 h3,
 a {
-        text-decoration: none;
+	text-decoration: none;
 }
 
 .a_head {
-        color: white;
-        text-decoration: none;
-        margin-left: 0px;
-        margin-right: 100px;
+	color: white;
+	text-decoration: none;
+	margin-left: 0px;
+	margin-right: 100px;
 }
 
-
-
 .logo {
-        margin: 0;
-        font-size: 1.25em;
-        font-weight: bold;
+	margin: 0;
+	font-size: 1.25em;
+	font-weight: bold;
 }
 
 .main-nav {
-        margin-top: 5px;
-        margin-left: 28px;
+	margin-top: 5px;
+	margin-left: 28px;
 
 }
 
 .logo a,
 .main-nav a {
-        padding: 10px 15px;
-        text-align: center;
-        display: block;
-
+	padding: 1px 0px 10px 0px;
+	text-align: center;
+	display: block;
 }
 
 .main-nav a {
-        color: white;
-        font-size: .99em;
+	color: white;
+	font-size: .99em;
+
+	padding: 0px 15px 10px 17px;
 }
 
 .main-nav a:hover {
-        color: gray;
+	color: gray;
 }
 
 .my-input {
-        margin: auto;
+	margin: auto;
 }
 
 .input-image {
-        margin-bottom: -27px !important;
+	margin-bottom: -27px !important;
 
 }
 
 .btn_size {
-        margin-bottom: 105px;
-        position: relative;
-        margin-left: -70px;
+	margin-bottom: 105px;
+	position: relative;
+	margin-left: -70px;
 }
 
 .ot_size {
-        margin-bottom: 100px;
+	margin-bottom: 100px;
 }
 
 .upl_img {
 
-        margin: auto;
-        text-align: center;
+	margin: auto;
+	text-align: center;
 
 }
 
 .header {
-        display: flex;
-        padding-top: .5em;
-
-        -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-        -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-        box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        border-radius: 5px;
-        height: 50px;
+	display: flex;
+	padding-top: .5em;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	height: 42px;
 }
 
 .form-control {
-        margin: auto;
-        width: 55%;
-
+	margin: auto;
+	width: 55%;
 }
 
 .img-card {
-        background: #f5e9e9;
-        box-shadow: 0px 0px 2px 0.5px;
-        width: 200px;
-        height: auto;
-        margin: auto;
-        font-size: 12px;
-        margin-top: 30px;
+	background: #f5e9e9;
+	width: 200px;
+	height: auto;
+	margin: auto;
+	font-size: 12px;
+	margin-top: 30px;
+	margin-bottom: 100px;
+	margin-top: 15%;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, .125);
+	border-radius: 0.25rem;
 }
 
 img {
-        width: 200px;
-        height: auto;
-        margin: auto;
-        align-content: center;
+	width: 100%;
+	height: auto;
+	margin: auto;
+	align-content: center;
 }
 
 .prg {
-        font-size: 12px;
-
-        max-width: 52%;
-        margin-left: 53px;
-        margin-top: 15px;
+	font-size: 14px;
+	max-width: 63%;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px
 }
-
 
 /* ================================= 
       Media Queries
@@ -185,35 +190,35 @@ img {
 
 @media (min-width: 769px) {
 
-        .header,
-        .main-nav {
-                display: flex;
-        }
+	.header,
+	.main-nav {
+		display: flex;
+	}
 
-        .header {
-                flex-direction: column;
-                align-items: center;
-        }
+	.header {
+		flex-direction: column;
+		align-items: center;
+	}
 
-        .header {
-                width: 80%;
-                margin: 0 auto;
-                max-width: 1150px;
-        }
+	.header {
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
 
 
 }
 
 @media (min-width: 1025px) {
-        .header {
-                flex-direction: row;
-                justify-content: space-between;
-        }
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
 
 }
 
 .foot {
-        background: black;
-        display: fixed;
-        height: 150px;
+	background: black;
+	display: fixed;
+	height: 150px;
 }
